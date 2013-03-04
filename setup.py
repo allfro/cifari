@@ -14,7 +14,7 @@ setup(
         '' : [ '*.gif', '*.png', '*.conf', '*.mtz', '*.machine' ] # list of resources
     },
     install_requires=[
-        'canari=0.7',
+        'canari==0.7',
         'cif'
     ],
     dependency_links=[
